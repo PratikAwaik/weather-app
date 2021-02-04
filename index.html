@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather App</title>
+        <!-- noto sans font -->
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/style.css">
+        
+    </head>
+    <body>
+        <main>
+            <div id="search-container">
+                <form id="search-form" autocomplete="off">
+                    <button id="search-btn">
+                        <img id="search-img" src="images/search.svg" alt="Search Icon">
+                    </button>
+                    <input type="text" name="search-input" id="search-input" placeholder="Search Location">       
+                </form>
+            </div>
+
+            <p id="error-msg">Weather Data Not Found!</p>
+            <p id="city-name"></p>
+            <div id="weather-info"></div> 
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
