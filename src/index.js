@@ -157,10 +157,12 @@ function displayChart(data) {
     p.textContent = "Weather Forecast Chart"
     weatherInfo.appendChild(p);
 
+    // create Chart Container
     const chartContainer = document.createElement("div");
     chartContainer.setAttribute("class", "chart-container");
     weatherInfo.appendChild(chartContainer);
 
+    // canvas for displaying chart
     const canvas = document.createElement("canvas");
     canvas.setAttribute("id", "chart");
     canvas.style.width = "85%";
