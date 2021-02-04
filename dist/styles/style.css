@@ -1,0 +1,143 @@
+:root {
+    --white: #ffffff;
+}
+
+html, body {
+    font-size: 10px;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+main {
+    background: url(../images/night.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: auto;
+}
+
+#search-container {
+    margin: 5rem;
+}
+
+#search-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 40rem;
+    height: 4.7rem;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+}
+
+#search-btn {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0 0 0 1.5rem;
+}
+
+#search-img {
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+#search-input {
+    width: 30rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0 2.2rem;
+    color: var(--white);
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+#error-msg {
+    display: none;
+    text-align: center;
+    color: rgba(255, 0, 0, 0.9);
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+}
+
+#city-name {
+    text-align: center;
+    color: #7da7f4;
+    font-size: 5rem;
+}
+
+.curr-weather-info {
+    width: 80rem;
+    height: 60rem;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.temp-div {
+    width: 100%;
+    height: 10rem;
+    color: var(--white);
+    font-size: 8rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.humidity-div, .pressure-div, .visibility-div, .wind-div {
+    width: 40%;
+    height: 10rem;
+    color: var(--white);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 4rem;
+}
+
+#humidity-img, #pressure-img, #visibility-img, #wind-img {
+    height: 100%;
+}
+
+#humidity-text, #pressure-text, #visibility-text, #wind-text {
+    height: 100%;
+    width: 80%;
+    color: var(--white);
+    font-size: 2.7rem;
+}
+
+#humidity-val, #pressure-val, #visibility-val, #wind-val {
+    color: var(--white);
+    font-size: 4rem;
+    margin: 0.5rem;
+    font-weight: 600;
+}
+
+.chart-container {
+    width: 150rem;
+    height: 50rem;
+    margin: 5rem auto;
+    padding: 2.5rem 0;
+    box-shadow: 2px 2px 10px 2px grey, -2px -2px 10px 2px grey;
+}
+
+#chart-heading {
+    color: #7da7f4;
+    font-size: 5rem;
+    text-align: center;
+}
+
+#chart {
+    display: block;
+    width: 95% !important;
+    height: 95% !important;
+    margin: 0 auto;
+}
+
