@@ -66,7 +66,7 @@ function displayCurrentWeather(data) {
 
     const humidityImg = document.createElement("img");
     humidityImg.setAttribute("id", "humidity-img");
-    humidityImg.setAttribute("src", "../dist/images/humidity.svg");
+    humidityImg.setAttribute("src", "images/humidity.svg");
     humidityImg.setAttribute("alt", "Humidity Icon");
     humidityDiv.appendChild(humidityImg);
 
@@ -88,7 +88,7 @@ function displayCurrentWeather(data) {
 
     const pressureImg = document.createElement("img");
     pressureImg.setAttribute("id", "pressure-img");
-    pressureImg.setAttribute("src", "../dist/images/pressure.svg");
+    pressureImg.setAttribute("src", "images/pressure.svg");
     pressureImg.setAttribute("alt", "Air Pressure Icon");
     pressureDiv.appendChild(pressureImg);
 
@@ -110,7 +110,7 @@ function displayCurrentWeather(data) {
 
     const visibilityImg = document.createElement("img");
     visibilityImg.setAttribute("id", "visibility-img");
-    visibilityImg.setAttribute("src", "../dist/images/visibility.svg");
+    visibilityImg.setAttribute("src", "dist/images/visibility.svg");
     visibilityImg.setAttribute("alt", "Eye Icon");
     visibilityDiv.appendChild(visibilityImg);
 
@@ -132,7 +132,7 @@ function displayCurrentWeather(data) {
 
     const windImg = document.createElement("img");
     windImg.setAttribute("id", "wind-img");
-    windImg.setAttribute("src", "../dist/images/wind.svg");
+    windImg.setAttribute("src", "dist/images/wind.svg");
     windImg.setAttribute("alt", "Wind Icon");
     windDiv.appendChild(windImg);
 
