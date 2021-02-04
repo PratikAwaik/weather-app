@@ -110,7 +110,7 @@ function displayCurrentWeather(data) {
 
     const visibilityImg = document.createElement("img");
     visibilityImg.setAttribute("id", "visibility-img");
-    visibilityImg.setAttribute("src", "dist/images/visibility.svg");
+    visibilityImg.setAttribute("src", "images/visibility.svg");
     visibilityImg.setAttribute("alt", "Eye Icon");
     visibilityDiv.appendChild(visibilityImg);
 
@@ -132,7 +132,7 @@ function displayCurrentWeather(data) {
 
     const windImg = document.createElement("img");
     windImg.setAttribute("id", "wind-img");
-    windImg.setAttribute("src", "dist/images/wind.svg");
+    windImg.setAttribute("src", "images/wind.svg");
     windImg.setAttribute("alt", "Wind Icon");
     windDiv.appendChild(windImg);
 
